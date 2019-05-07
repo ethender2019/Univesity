@@ -14,7 +14,7 @@ ul{
 button {
     border: none;
     background-color: #f7aa00;
-    font-family: Merriweather;
+    font-family: lato;
     color: white;
     font-size: 12px;
     font-weight: bold;
@@ -27,8 +27,9 @@ button {
 button:hover {
     background-color: #235784;
 }
-h3 {
+h2, h3 {
     font-family: Lato;
+    text-emphasis: bolder;
 }
 .cf::after{
     content: ".";
@@ -53,7 +54,7 @@ header p {
 .call {
     padding-top: 13px;
     padding-bottom: 11px;
-    font-family: Merriweather;
+    font-family: lato;
     cursor: pointer;
 }
 .call i {
@@ -61,7 +62,7 @@ header p {
     transform: rotate(108deg);
 }
 .email {
-    font-family: Merriweather;
+    font-family: lato;
     cursor: pointer;
 }
 .email i {
@@ -110,7 +111,7 @@ header p {
 .mainviewmob {
     width: 100%;
     height: auto;
-    background-image: url('../img/Mockup-Smartphone_18.4_02.jpg');
+    background-image: url('../img/main_visual_03.jpg');
     background-size: cover;
     box-sizing: border-box;
     background-position: center;
@@ -159,10 +160,17 @@ header p {
     padding-bottom: 20px;
     position: relative;
 }
+.maincourses1 {
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    position: relative;
+}
 .coursehead {
     text-align: center;
     font-size: 20px;
-    font-family: Merriweather;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -177,16 +185,16 @@ header p {
 }
 .imagecourse {
     width: 100%;
-    height: auto;
     position: relative;
     object-fit: cover;
+    height: auto;
 }
 .sticky {
     position: sticky;
     width: 19px;
     height: 20px;
     position:  absolute;
-    top: 8px;
+    top: -35px;
     left: 10px;
 }
 .sticky2 {
@@ -194,30 +202,31 @@ header p {
     width: 19px;
     height: 20px;
     position:  absolute;
-    top: -38px;
+    top: -35px;
     left: 10px;
 }
 .textbox {
     position: absolute;
-    background: #235784;
+    background: #f7aa00;
     color: white;
     display: inline-block;
-    padding: 5px 17px;
+    padding: 5px 7px;
     font-size: 10px;
-    font-family: Merriweather;
+    font-family: Lato;
     top: 259%;
     left: -146%;
     z-index: 1;
     width: 75px;
+    text-align: center;
 }
 .textbox2 {
     position: absolute;
-    background: #235784;
+    background:#f7aa00;
     color: white;
     display: inline-block;
     padding: 5px 17px;
     font-size: 10px;
-    font-family: Merriweather;
+    font-family: Lato;
     top: 261%;
     left: -149%;
     z-index: 1;
@@ -229,7 +238,7 @@ header p {
     left: -190%;
     border-width: 19px 17px 0;
     border-style: solid;
-    border-color: #235784 transparent violet;
+    border-color: #f7aa00 transparent violet;
     transform: rotate;
     transform: rotate(90deg);
     z-index: 0;
@@ -241,7 +250,7 @@ header p {
     left: -191%;
     border-width: 19px 17px 0;
     border-style: solid;
-    border-color: #235784 transparent violet;
+    border-color:#f7aa00 transparent violet;
     transform: rotate;
     transform: rotate(90deg);
     z-index: 0;
@@ -255,7 +264,7 @@ header p {
     font-family: Lato;
     padding-bottom: 7px;
 }
-.textg {
+.textgmob {
     font-size: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -265,6 +274,9 @@ header p {
 }
 .btns {
     margin-bottom: 15px;
+}
+.btns:hover {
+    background-color: #235784;
 }
 .news {
 width: 80%;
@@ -278,7 +290,7 @@ font-size: 18px;
 margin-bottom: 10px;
 padding-left: 15px;
 text-align: left;
-font-family: Merriweather;
+font-family: Lato;
 }
 .newsdate {
 color: #f7aa00;
@@ -309,6 +321,21 @@ height: auto;
 margin: 0px auto;
 text-align: center;
 }
+.wrapperspeak {
+    width: 100%;
+    height: auto;
+    margin 0px auto;
+}
+.firstspeakpc {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.secondspeakpc {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
 .freecimg {
     width: 100%;
     height: auto;
@@ -319,7 +346,7 @@ text-align: center;
 .textfree {
     width: 100%;
     height: auto;
-    background-color: #2972b9;
+    background-color: #235784;
     color: white;
 }
 .textfree :nth-child(1) {
@@ -327,13 +354,13 @@ text-align: center;
     text-align: left;
     padding: 15px 10px 10px 10px;
     font-weight: bold;
-    font-family: Merriweather;
+    font-family: Lato;
 }
 .textfree :nth-child(2) {
     font-size: 15px;
     text-align: left;
     padding: 0px 10px 10px 10px;
-    font-family: Merriweather;
+    font-family: Lato;
 }
 .freebtn {
     border-radius: 7px;
@@ -344,7 +371,7 @@ text-align: center;
 .speakers h2 {
     text-align: center;
     font-size: 20px;
-    font-family: Merriweather;
+    font-family: Lato;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -377,6 +404,9 @@ text-align: center;
     padding-bottom: 15px;
 }
 .speak1 {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
     margin-bottom: 30px;
 }
 .subscribe {
@@ -390,7 +420,7 @@ text-align: center;
 .subscribe h3 {
     font-size: 16;
     padding: 10px 15px 10px 15px;
-    font-family: Merriweather;
+    font-family: Lato;
 }
 .subs {
     width: 100px;
@@ -405,7 +435,7 @@ text-align: center;
     color: black;
     float: left;
     padding: 5px;
-    font-size: 10px;
+    font-size: 9px;
     cursor: pointer;
 }
 .subsbtn {
@@ -423,6 +453,7 @@ footer {
     height: auto;
     background-color: black;
     color: white;
+    overflow: hidden;
 }
 .footerwrap {
     width: 80%;
@@ -441,15 +472,15 @@ footer {
 }
 .footerwrap h3 {
     font-size: 18px;
-    color: #2972b9;
-    font-family: Merriweather;
+    color: #235784;
+    font-family: Lato;
 }
 .footerwrap a {
     display: table;
     color: white;
     padding-top: 5px;
     font-size: 15px;
-    font-family: Merriweather;
+    font-family: Lato;
     cursor: pointer;
 }
 .footerwrap a:hover {
@@ -495,12 +526,12 @@ footer {
 .contactdown h3 {
     padding-bottom: 8px;
 }
-.call2 {
+#call2 {
     padding-bottom: 8px;
     display: block;
     cursor: pointer;
 }
-.call2 i {
+#call2 i {
     padding-right: 5px;
     transform: rotate(108deg);
 }
@@ -510,31 +541,28 @@ footer {
     display: table;
     cursor: pointer;
 }
-.email2 {
+#email2 {
     cursor: pointer;
 }
-.contactdown {
-    position: relative;
-}
-.contactdown :nth-child(2) {
-    font-family: Merriweather;
+.contactdown :nth-child(3) {
+    font-family: Lato;
     font-size: 12px;
 }
-.contactdown :nth-child(3) {
-    font-family: Merriweather;
+.contactdown :nth-child(4) {
+    font-family: Lato;
     font-size: 12px;
 }
 .copyright {
     width: 100%;
     height: auto;
-    background-color: #2972b9;
+    background-color: #235784;
     color: white;
     text-align: center;
     margin: 0px auto;
     font-size: 11px;
     padding-top: 13px;
     padding-bottom: 13px;
-    font-family: Merriweather;
+    font-family: Lato;
 }
 .fa-caret-square-up {
     float: right;
@@ -547,7 +575,7 @@ footer {
 
 /* hiding things in responsive design */
 @media only screen and (max-width: 767px) {
-    .menupc {
+  .contactdownpctext,.contactdownpc, .copyrightpc, .secondspeakpc1, .menupc, .researchpc, .forpc3, .pctextonly, .textg {
         display: none;
    }
 }
@@ -555,6 +583,9 @@ footer {
 
 @media only screen and (min-width: 768px) {
 
+.news, .researchmob, .copyright, .contactdown, .textgmob {
+    display: none;
+}
 button {
     border: none;
     background-color: #f7aa00;
@@ -601,7 +632,7 @@ header div {
 }
 .mainlogo {
     float: left;
-    margin-left: 50px;
+    cursor: pointer;
 }
 .logomob {
     width: 180px;
@@ -612,7 +643,6 @@ header div {
     display: inline;
     float: right;
     padding-top: 20px;
-    margin-right: 50px;
 }
 .menupc a {
     color: #235784;
@@ -664,26 +694,469 @@ header div {
     margin-bottom: 15px;
     text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.coursehead {
+    text-align: left;
+    font-size: 36px;
+    padding-top: 75px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
 }
-    
+.underg {
+    font-size: 30px;
+    padding: 15px 30px 15px 30px;
+}
+.textg {
+    font-size: 17px;
+    padding: 0px 30px 23px 30px;
+}
+.btns {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.btns:hover {
+    background-color: #235784;
+}
+.programmes {
+    overflow: hidden;
+}
+.pgms {
+    width: 1080px;
+    height: auto;
+    margin: 0px auto;
+}
+.maincourses1 {
+    width: 500px;
+    height: 504px;
+    float: left;
+}
+.maincourses {
+    width: 500px;
+    height: 504px;
+    float: right;
+}
+.sticky {
+    position: sticky;
+    width: 19px;
+    height: 20px;
+    position:  absolute;
+    top: -38px;
+    left: 11px;
+}
+.sticky2 {
+    position: sticky;
+    width: 19px;
+    height: 20px;
+    position:  absolute;
+    top: -38px;
+    left: 10px;
+}
+.textbox {
+    position: absolute;
+    background: #f7aa00;
+    color: white;
+    display: inline-block;
+    padding: 11px 17px;
+    font-size: 14px;
+    font-family: lato;
+    top: 314%;
+    left: -209%;
+    z-index: 1;
+    width: 130px;
+    height: 16px;
+    text-align: center;
+}
+.textbox2 {
+    position: absolute;
+    background: #f7aa00;
+    color: white;
+    display: inline-block;
+    padding: 11px 17px;
+    font-size: 14px;
+    font-family: lato;
+    top: 314%;
+    left: -209%;
+    z-index: 1;
+    width: 130px;
+    height: 16px;
+    text-align: center;
+}
+.crossblue {
+    position: absolute;
+    top: 436%;
+    left: -298%;
+    border-width: 30px 32px 0;
+    border-style: solid;
+    border-color: #f7aa00 transparent violet;
+    transform: rotate;
+    transform: rotate(90deg);
+    z-index: 0;
+    width: 1px;
+}
+.crossblue2 {
+    position: absolute;
+    top: 436%;
+    left: -298%;
+    border-width: 30px 32px 0;
+    border-style: solid;
+    border-color: #f7aa00 transparent violet;
+    transform: rotate;
+    transform: rotate(90deg);
+    z-index: 0;
+    width: 1px;
+}
+.researchpc {
+    width: 1080px;
+    margin: 0px auto;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.groupofresearch {
+    width: 740px;
+    height: 485px;
+    float: left;
+}
+.research1 {
+    width: 740px;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 55px;
+    margin-right: 40px;
+    background-color: #e1e1e1;
+}
+.researchimager {
+    float: left;
+    padding: 25px 35px 0px 21px;
+}
+.imagecourser {
+    width: 211px;
+    object-fit: cover;
+    height: 167px;
+}
+.textr {
+    text-align: center;
+    background-color: unset;
+}
+.textg {
+    padding-bottom: 10px;
+}
+.btnr {
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.newspc {
+    width: 317px;
+    height: 490px;
+    float: right;
+    margin-left: 5px;
+}
+.newspc h2 {
+    font-size: 30px;
+    color: #f7aa00;
+    padding-bottom: 15px;
+}
+.newsdatepc{
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    color: #f7aa00;
+    cursor: pointer;
+}
+.mainnewspc {
+    font-size: 17px;
+    color: #235784;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.linenews {
+    margin-left: 15px;
+    width: 280px;
+    height: 3px;
+    background-color: #235784;
+    margin-bottom: 15px;
+}
+#lastnews {
+    margin-bottom: 19px;
+}
+.buttonwrap {
+    text-align: center;
+}
+.freec {
+    width: 1280px;
+    height: auto;
+    margin: 0px auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.imagefree {
+    width: 550px;
+    height: 330px;
+    float: right;
+}
+.textfree {
+    width: 730px;
+    height: 330px;
+    float: left;
+}
+.freecimg {
+    margin: 0px;
+}
+.freebtn {
+    border-radius: 7px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+}
+.textfree :nth-child(1) { 
+    font-size: 36px;
+    padding: 45px 45px 25px 100px;
+}
+.textfree :nth-child(2) {
+    font-size: 25px;
+    padding: 0px 45px 25px 100px;
+    line-height: 35px;
+}
+.textfree :nth-child(3) {
+    font-size: 18px;
+}
+.speak1 {
+    width: 100%;
+    margin: 0px auto;
+}
+.speakers {
+    width: 990px;
+    height: auto;
+    border: solid 2px #235784;
+    overflow: hidden;
+    margin: 0px auto;
+    margin-bottom: 100px;
+}
+.speakers h2 {
+    text-align: left;
+    font-size: 36px;
+    margin: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.firstspeakpc {
+    width: 250px;
+    height: auto;
+    padding-left: 60px;
+    float: left;
+}
+.textspeak {
+    margin-bottom: 30px;
+}
+.textspeak :nth-child(1){
+    font-size: 17px;
+}
+.textspeak :nth-child(2) {
+    font-size: 18px;
+    font-weight: bolder;
+}
+.textspeak :nth-child(3) {
+    font-size: 16px;
+}
+.textspeak :nth-child(4) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wrapperspeak {
+    width: 990px;
+    height: auto;
+    display: inline-flex;
+    margin: 0px auto;
+}
+.secondspeakpc {
+    width: 250px;
+    height: auto;
+    padding-left: 50px;
+    float: left;
+    margin: 0px;
+}
+.secondspeakpc1 {
+    width: 250px;
+    height: auto;
+    float: left;
+    margin: 0px;
+    padding-left: 50px;
+    padding-right: 60px;
+}
+.subscribe {
+    background-color: #f7aa00;
+    color: white;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+}
+.subscribe h3 {
+    font-size: 25px;
+    padding: 20px 15px 20px 15px;
+    font-family: Lato;
+}
+.subs {
+    width: 230px;
+    height: auto;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    float: left;
+}
+.subscribe button {
+    background-color: #cccccc;
+    color: black;
+    float: left;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.subsbtn {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin: 0px auto;
+}
+.subsbtndiv {
+    display: inline-block;
+}
+.footerwrap {
+    width: 85%;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+.footerpc1 {
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+.downlogo {
+    width: 205px;
+    height: 55px;
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 48px;
+    cursor: pointer;
+}
+.footertext {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.footerpc2 {
+    width: 125px;
+    height: 400px;
+    float: left;
+    padding-top: 65px;
+    padding-left: 25px;
+}
+.footerpc2 h3 {
+    font-size: 24px;
+    padding-bottom: 89px;
+}
+.footerpc2 a {
+    font-size: 18px;
+    padding-bottom: 13px;
+}
+.recentpc {
+    width: 290px;
+    height: 400px;
+    float: left;
+    padding-top: 65px;
+    padding-left: 35px;
+}
+.recent h3 {
+    padding-top: 0px;
+    font-size: 24px;
+    padding-bottom: 89px;
+}
+.post1txt1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.post1txt2 {
+    font-size: 16px;
+}
+.post1 img {
+    margin-bottom: 20px;
+}
+.contactdownpc {
+    width: 230px;
+    float: right;
+    padding-top: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.contactdownpc h3 {
+    padding-top: 0px;
+    font-size: 24px;
+    padding-bottom: 89px;
+}
+#footerp {
+    margin-bottom: 33px;
+}
+.contactdownpc p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+#mailpc, #callpc {
+    font-size: 25px;
+    padding-right: 15px;
+}
+.copyrightpc {
+    width: 100%;
+    height: auto;
+    background-color: #235784;
+    color: white;
+    margin: 0px auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-family: Lato;
+    position: relative;
+}
+.textcopy {
+    display: inline-flex
+}
+.copyrightpc p {
+    font-size: 14px;
+    text-align: left;
+    padding: 20px 0px 20px 100px;
+}
+.fa-caret-square-up {
+    float: right;
+    font-size: 35px;
+    position: absolute;
+    bottom: 90;
+    right: 0;
+    right: 24px;
+    cursor: pointer;
+    top: 39px;
+}
+.socialiconsdown {
+    display: inline-flex;
+    float: right;
+    padding: 20px 150px 20px 0px;
+}
+.socialiconsdown li:hover {
+    transform: scale(1.3);
+    color:#f7aa00;
+}
+.socialiconsdown li {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.socialicons :nth-child(4) {
+    padding-right: 0px;
+}
+}
