@@ -108,6 +108,30 @@ header p {
     margin: 5px 0px 5px 0px;
     cursor: pointer;
 }
+#mobNav {
+    position: absolute;
+    top: 143px;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    opacity: 0;
+    transition: all .4s ease;
+    z-index: 0;
+}
+#mobNav.active {
+    opacity: 1;
+    z-index: 2;
+}
+#mobNav li {
+    margin-top: 25px;
+	margin-left: 50px;
+    margin-bottom: 35px;
+}
+.navicontextmob a {
+    color:white;
+    font-size: 20px;
+    font-family: Lato;
+    padding-top: 10px;
+}
 .mainviewmob {
     width: 100%;
     height: auto;
@@ -567,12 +591,19 @@ footer {
     font-family: Lato;
 }
 #gototopmob {
-    float: right;
-    font-size: 35px;
-    position: absolute;
-    bottom: 25px;
-    right: 0px;
+    display: none;
+    position: fixed;
+    bottom: 48px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #f7aa00;
+    color: white;
     cursor: pointer;
+    padding: 14px;
+    border-radius: 11px;
 }
 
 /* hiding things in responsive design */
@@ -585,7 +616,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
 
-.news, .researchmob, .copyright, .contactdown, .textgmob {
+.news, .mobmenu, .researchmob, .copyright, .contactdown, .textgmob {
     display: none;
 }
 button {
@@ -1135,15 +1166,20 @@ header div {
     text-align: left;
     padding: 20px 0px 20px 100px;
 }
-.fa-caret-square-up {
-    float: right;
-    font-size: 35px;
-    position: absolute;
-    bottom: 90;
-    right: 0;
-    right: 32px;
+#gototoppc {
+    display: none;
+    position: fixed;
+    bottom: 48px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #235784;
+    color: white;
     cursor: pointer;
-    top: 21px;
+    padding: 14px;
+    border-radius: 11px;
 }
 .socialiconsdown {
     display: inline-flex;
