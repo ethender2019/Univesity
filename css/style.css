@@ -124,18 +124,18 @@ header p {
 #mobNav li {
     margin-top: 25px;
 	margin-left: 50px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 .navicontextmob a {
     color:white;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Lato;
     padding-top: 10px;
 }
 .mainviewmob {
     width: 100%;
     height: auto;
-    background-image: url('../img/main_visual_03.jpg');
+    background-image: url('../img/main_visual_01.jpg');
     background-size: cover;
     box-sizing: border-box;
     background-position: center;
@@ -353,7 +353,7 @@ text-align: center;
 .firstspeakpc {
     width: 100%;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .secondspeakpc {
     width: 100%;
@@ -387,7 +387,6 @@ text-align: center;
     font-family: Lato;
 }
 .freebtn {
-    border-radius: 7px;
     padding: 5px 20px 5px 20px;
     margin-bottom: 18px;
     margin-top: 15px;
@@ -404,7 +403,13 @@ text-align: center;
     height: auto;
     object-fit: cover;
     margin: 0px auto;
+    transition: transform .1s;
 }
+.speakimg:hover {
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.03); 
+  }
 .textspeak {
     height: auto;
     background-color: #e1e1e1;
@@ -503,7 +508,7 @@ footer {
     display: table;
     color: white;
     padding-top: 5px;
-    font-size: 15px;
+    font-size: 11px;
     font-family: Lato;
     cursor: pointer;
 }
@@ -524,18 +529,18 @@ footer {
 .post1 img, .post2 img {
     float: left;
     object-fit: cover;
-    /* width: 100%;
-    height: auto;
-    /* object-fit: cover; */
-    /* margin: 0px auto; */ */
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+}
+.post1txt1 a {
+    font-size: 13px;
 }
 .post1txt1 {
-    float: right;
-    font-size: 15px;
     margin-left: 8px;
 }
 .post1txt2 {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 22px;
     font-family: Lato;
     font-weight: 300;
@@ -596,13 +601,13 @@ footer {
     bottom: 48px;
     right: 30px;
     z-index: 99;
-    font-size: 20px;
+    font-size: 18px;
     border: none;
     outline: none;
-    background-color: #f7aa00;
+    background-color:#235784;
     color: white;
     cursor: pointer;
-    padding: 14px;
+    padding: 13px;
     border-radius: 11px;
 }
 
@@ -655,6 +660,7 @@ header div {
 .socialicons {
     float: right;
     padding-top: 20px;
+    padding-right: 5px;
 }
 .menubarmob {
     width: 1080px;
@@ -694,7 +700,7 @@ header div {
     padding-right: 0px;
 }
 .mainviewmob {
-    background-image: url(../img/main_visual_03.jpg);
+    background-image: url(../img/main_visual_01.jpg);
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
@@ -847,7 +853,7 @@ header div {
 }
 .groupofresearch {
     width: 740px;
-    height: 485px;
+    height: auto;
     float: left;
 }
 .research1 {
@@ -855,7 +861,15 @@ header div {
     height: auto;
     overflow: hidden;
     box-sizing: border-box;
-    margin-bottom: 55px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    background-color: #e1e1e1;
+}
+.research2 {
+    width: 740px;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
     margin-right: 40px;
     background-color: #e1e1e1;
 }
@@ -875,7 +889,7 @@ header div {
 .btnr {
     float: right;
     margin-right: 25px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 25px;
 }
 .newspc {
@@ -938,10 +952,9 @@ header div {
     margin: 0px;
 }
 .freebtn {
-    border-radius: 7px;
     padding: 10px 20px 10px 20px;
     margin-bottom: 18px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .freebtn:hover {
     background-color: white;
@@ -1076,9 +1089,9 @@ header div {
 }
 .downlogo {
     width: 205px;
-    height: 55px;
+    height: 65px;
     padding-top: 60px;
-    padding-bottom: 48px;
+    padding-bottom: 35px;
     cursor: pointer;
 }
 .footertext {
@@ -1099,8 +1112,9 @@ header div {
     padding-bottom: 67px;
 }
 .footerpc2 a {
-    font-size: 18px;
-    padding-bottom: 13px;
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-family: Lato;
 }
 .recentpc {
     width: 290px;
@@ -1114,16 +1128,16 @@ header div {
     font-size: 24px;
     padding-bottom: 67px;
 }
-.post1txt1 {
-    font-size: 18px;
+.post1txt1 a {
+    font-size: 17px;
     font-weight: bold;
-    margin-left: 18px;
 }
 .post1txt2 {
     font-size: 16px;
 }
 .post1 img {
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 .contactdownpc {
     width: 230px;
@@ -1139,9 +1153,9 @@ header div {
     margin-bottom: 33px;
 }
 .contactdownpc p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 27px;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
 }
 #mailpc, #callpc {
     font-size: 25px;
@@ -1169,7 +1183,7 @@ header div {
 #gototoppc {
     display: none;
     position: fixed;
-    bottom: 48px;
+    bottom: 95px;
     right: 30px;
     z-index: 99;
     font-size: 20px;
@@ -1197,5 +1211,12 @@ header div {
 }
 .socialicons :nth-child(4) {
     padding-right: 0px;
+}
+.post1 img, .post2 img {
+    float: left;
+    object-fit: cover;
+    height: 110px;
+    width: 120px;
+    border-radius: 15px;
 }
 }
