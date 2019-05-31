@@ -1,630 +1,628 @@
 *{
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 a img{
-    border-style: none;
+  border-style: none;
 }
 ul{
-    list-style: none;
+  list-style: none;
 }
 button {
-    border: none;
-    background-color: #f7aa00;
-    font-family: lato;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 6px 12px 6px 12px;
-    margin: 0px auto;
-    display: inline-flex;
-    text-align: center;
-    cursor: pointer;
+  border: none;
+  background-color: #f7aa00;
+  font-family: lato;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px 12px 6px 12px;
+  margin: 0px auto;
+  display: inline-flex;
+  text-align: center;
+  cursor: pointer;
 }
 button:hover {
-    background-color: #235784;
+  background-color: #235784;
 }
 h2, h3 {
-    font-family: Lato;
-    text-emphasis: bolder;
+  font-family: Lato;
+  text-emphasis: bolder;
 }
 .cf::after{
-    content: ".";
-    display: block;
-    clear: both;
-    height: 0;
-    visibility: hidden;
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
 }
 body{
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 header {
-    width: 100%;
-    height: auto;
-    background-color: #235784;
-    text-align: center;
-    color: white;
+  width: 100%;
+  height: auto;
+  background-color: #235784;
+  text-align: center;
+  color: white;
 }
 header p {
-    font-size: 12px;
+  font-size: 12px;
 }
 .call {
-    padding-top: 13px;
-    padding-bottom: 11px;
-    font-family: lato;
-    cursor: pointer;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  font-family: lato;
+  cursor: pointer;
 }
 .call i {
-    padding-right: 5px;
-    transform: rotate(108deg);
+  padding-right: 5px;
+  transform: rotate(108deg);
 }
 .email {
-    font-family: lato;
-    cursor: pointer;
+  font-family: lato;
+  cursor: pointer;
 }
 .email i {
-    padding-right: 5px;
-    padding-bottom: 11px;
+  padding-right: 5px;
+  padding-bottom: 11px;
 }
 .socialicons {
-    display: inline-flex;
+  display: inline-flex;
 }
 .socialicons li:hover {
-    transform: scale(1.3);
-    color: #f7aa00;
+  transform: scale(1.3);
+  color: #f7aa00;
 }
 .socialicons li {
-    padding-right: 10px;
-    padding-bottom: 10px;
-    cursor: pointer;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 .socialicons :nth-child(4) {
-    padding-right: 0px;
+  padding-right: 0px;
 }
 .menubarmob {
-    width: 80%;
-    height: auto;
-    background-color: white;
-    overflow: hidden;
-    margin: 0px auto;
+  width: 80%;
+  height: auto;
+  background-color: white;
+  overflow: hidden;
+  margin: 0px auto;
 }
 .logomob {
-    width: 140px;
-    height: 40px;
-    margin: 5px 0px 5px 0px;
-    float: left;  
+  width: 140px;
+  height: 40px;
+  margin: 5px 0px 5px 0px;
+  float: left;
 }
 .wrappermenu {
-    width: 80%;
-    margin: 0px auto;
+  width: 80%;
+  margin: 0px auto;
 }
 .hamburger {
-    color: #235784;
-    float: right;
-    font-size: 37px;
-    margin: 5px 0px 5px 0px;
-    cursor: pointer;
+  color: #235784;
+  float: right;
+  font-size: 37px;
+  margin: 5px 0px 5px 0px;
+  cursor: pointer;
 }
 #mobNav {
-    position: absolute;
-    top: 143px;
-    background-color: rgba(0, 0, 0, 0.9);
-    width: 100%;
-    opacity: 0;
-    transition: all .4s ease;
-    z-index: 0;
+  position: absolute;
+  top: 143px;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  opacity: 0;
+  transition: all .4s ease;
+  z-index: 0;
 }
 #mobNav.active {
-    opacity: 1;
-    z-index: 2;
+  opacity: 1;
+  z-index: 2;
 }
 #mobNav li {
-    margin-top: 25px;
-	margin-left: 50px;
-    margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-bottom: 25px;
 }
 .navicontextmob a {
-    color:white;
-    font-size: 18px;
-    font-family: Lato;
-    padding-top: 10px;
+  color:white;
+  font-size: 18px;
+  font-family: Lato;
+  padding-top: 10px;
 }
 .mainviewmob {
-    width: 100%;
-    height: auto;
-    background-image: url('../img/main_visual_01.jpg');
-    background-size: cover;
-    box-sizing: border-box;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    margin: 0px auto;
-    margin-bottom: 20px;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/main_visual_01.jpg');
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  object-fit: cover;
 }
 .mainviewmob hr {
-    background-color:#f7aa00;
-    width: 90px;
-    height: 2px;
-    top: 50px;
-    border: none;
-    display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 25px;
+  background-color:#f7aa00;
+  width: 90px;
+  height: 2px;
+  top: 50px;
+  border: none;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 .mainviewmob h1 {
-    font-size: 28px;
-    color: white;
-    text-align: center;
-    margin-bottom: 10px;
-    font-family: PT-serif;
-    font-weight: bold;
-    text-transform: uppercase;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: PT-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .mainviewmob h2 {
-    color: #f7aa00;
-    font-size: 21px;
-    font-style: italic;
-    font-family: PT-serif;
-    letter-spacing: .3px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
+  color: #f7aa00;
+  font-size: 21px;
+  font-style: italic;
+  font-family: PT-serif;
+  letter-spacing: .3px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
 .mainviewmob button {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 .maincourses, .research {
-    width: 80%;
-    height: auto;
-    margin: 0px auto;
-    box-sizing: border-box;
-    padding-bottom: 20px;
-    position: relative;
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  position: relative;
 }
 .maincourses1 {
-    width: 80%;
-    height: auto;
-    margin: 0px auto;
-    box-sizing: border-box;
-    padding-bottom: 20px;
-    position: relative;
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  position: relative;
 }
 .coursehead {
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 .position {
-    position: absolute;
+  position: absolute;
 }
 .textcourse {
-    width: 100%;
-    height: auto;
-    background-color: #e1e1e1;
-    text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: #e1e1e1;
+  text-align: center;
 }
 .imagecourse {
-    width: 100%;
-    position: relative;
-    object-fit: cover;
-    height: auto;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+  height: auto;
 }
 .sticky {
-    position: sticky;
-    width: 19px;
-    height: 20px;
-    position:  absolute;
-    top: -35px;
-    left: 10px;
+  position: sticky;
+  width: 19px;
+  height: 20px;
+  position:  absolute;
+  top: -35px;
+  left: 10px;
 }
 .sticky2 {
-    position: sticky;
-    width: 19px;
-    height: 20px;
-    position:  absolute;
-    top: -35px;
-    left: 10px;
+  position: sticky;
+  width: 19px;
+  height: 20px;
+  position:  absolute;
+  top: -35px;
+  left: 10px;
 }
 .textbox {
-    position: absolute;
-    background: #f7aa00;
-    color: white;
-    display: inline-block;
-    padding: 5px 7px;
-    font-size: 10px;
-    font-family: Lato;
-    top: 259%;
-    left: -146%;
-    z-index: 1;
-    width: 75px;
-    text-align: center;
+  position: absolute;
+  background: #f7aa00;
+  color: white;
+  display: inline-block;
+  padding: 5px 7px;
+  font-size: 10px;
+  font-family: Lato;
+  top: 259%;
+  left: -146%;
+  z-index: 1;
+  width: 75px;
+  text-align: center;
 }
 .textbox2 {
-    position: absolute;
-    background:#f7aa00;
-    color: white;
-    display: inline-block;
-    padding: 5px 17px;
-    font-size: 10px;
-    font-family: Lato;
-    top: 261%;
-    left: -149%;
-    z-index: 1;
-    width: 75px;
+  position: absolute;
+  background:#f7aa00;
+  color: white;
+  display: inline-block;
+  padding: 5px 17px;
+  font-size: 10px;
+  font-family: Lato;
+  top: 261%;
+  left: -149%;
+  z-index: 1;
+  width: 75px;
 }
 .crossblue {
-    position: absolute;
-    top: 322%;
-    left: -190%;
-    border-width: 19px 17px 0;
-    border-style: solid;
-    border-color: #f7aa00 transparent violet;
-    transform: rotate;
-    transform: rotate(90deg);
-    z-index: 0;
-    width: 1px;
+  position: absolute;
+  top: 322%;
+  left: -190%;
+  border-width: 19px 17px 0;
+  border-style: solid;
+  border-color: #f7aa00 transparent violet;
+  transform: rotate;
+  transform: rotate(90deg);
+  z-index: 0;
+  width: 1px;
 }
 .crossblue2 {
-    position: absolute;
-    top: 322%;
-    left: -191%;
-    border-width: 19px 17px 0;
-    border-style: solid;
-    border-color:#f7aa00 transparent violet;
-    transform: rotate;
-    transform: rotate(90deg);
-    z-index: 0;
-    width: 1px;
+  position: absolute;
+  top: 322%;
+  left: -191%;
+  border-width: 19px 17px 0;
+  border-style: solid;
+  border-color:#f7aa00 transparent violet;
+  transform: rotate;
+  transform: rotate(90deg);
+  z-index: 0;
+  width: 1px;
 }
 .underg {
-    font-size: 17px;
-    font-weight: bold;
-    padding: 15px 15px;
-    text-align: left;
-    font-family: Lato;
-    padding-bottom: 7px;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px;
+  text-align: left;
+  font-family: Lato;
+  padding-bottom: 7px;
 }
 .textgmob {
-    font-size: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    text-align: left;
-    font-family: Lato Regular;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  /* font-family: Lato Regular; */
 }
 .btns {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 .btns:hover {
-    background-color: #235784;
+  background-color: #235784;
 }
 .news {
-width: 80%;
-height: auto;
-margin: 0px auto;
-text-align: center;
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
+  text-align: center;
 }
 .news h2 {
-color: #f7aa00;
-font-size: 18px;
-margin-bottom: 10px;
-padding-left: 15px;
-text-align: left;
-font-family: Lato;
+  color: #f7aa00;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  text-align: left;
+  font-family: Lato;
 }
 .newsdate {
-color: #f7aa00;
-font-size: 16px;
-margin-bottom: 5px;
-padding-left: 15px;
-text-align: left;
-font-family: Lato;
+  color: #f7aa00;
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  text-align: left;
+  font-family: Lato;
 }
 .mainnews {
-font-size: 14px;
-margin-bottom: 10px;
-padding-left: 15px;
-text-align: left;
-color: #235784;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  text-align: left;
+  color: #235784;
 }
 .news hr {
-margin-top: 15px;
-background-color: #f7aa00;
-width: 100%;
-height: 3px;
-border: none;
-margin-bottom: 20px;
+  margin-top: 15px;
+  background-color: #f7aa00;
+  width: 100%;
+  height: 3px;
+  border: none;
+  margin-bottom: 20px;
 }
 .freec, .speakers {
-width: 80%;
-height: auto;
-margin: 0px auto;
-text-align: center;
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
+  text-align: center;
 }
 .wrapperspeak {
-    width: 100%;
-    height: auto;
-    margin 0px auto;
+  width: 100%;
+  height: auto;
+  margin 0px auto;
 }
 .firstspeakpc {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 .secondspeakpc {
-    width: 100%;
-    height: auto;
-    margin: 0px auto;
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
 }
 .freecimg {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    margin: 0px auto;
-    margin-top: 45px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0px auto;
+  margin-top: 45px;
 }
 .textfree {
-    width: 100%;
-    height: auto;
-    background-color: #235784;
-    color: white;
+  width: 100%;
+  height: auto;
+  background-color: #235784;
+  color: white;
 }
 .textfree :nth-child(1) {
-    font-size: 16px;
-    text-align: left;
-    padding: 15px 10px 10px 10px;
-    font-weight: bold;
-    font-family: Lato;
+  font-size: 16px;
+  text-align: left;
+  padding: 15px 10px 10px 10px;
+  font-weight: bold;
+  font-family: Lato;
 }
 .textfree :nth-child(2) {
-    font-size: 15px;
-    text-align: left;
-    padding: 0px 10px 10px 10px;
-    font-family: Lato;
+  font-size: 15px;
+  text-align: left;
+  padding: 0px 10px 10px 10px;
+  font-family: Lato;
 }
 .freebtn {
-    padding: 5px 20px 5px 20px;
-    margin-bottom: 18px;
-    margin-top: 15px;
+  padding: 5px 20px 5px 20px;
+  margin-bottom: 18px;
+  margin-top: 15px;
 }
 .speakers h2 {
-    text-align: center;
-    font-size: 20px;
-    font-family: Lato;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Lato;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .speakimg{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    margin: 0px auto;
-    transition: transform .1s;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0px auto;
+  transition: transform .1s;
 }
 .speakimg:hover {
-    -ms-transform: scale(0.5); /* IE 9 */
-    -webkit-transform: scale(1); /* Safari 3-8 */
-    transform: scale(1.03); 
-  }
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.03);
+}
 .textspeak {
-    height: auto;
-    background-color: #e1e1e1;
-    color: black;
-    padding: 15px;
+  height: auto;
+  background-color: #e1e1e1;
+  color: black;
+  padding: 15px;
 }
 .textspeak :nth-child(1) {
-    font-size: 15px;
-    text-align: left;
-    padding-bottom: 8px;
-    font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  padding-bottom: 8px;
+  font-weight: bold;
 }
 .textspeak h3 {
-    font-size: 17px;
-    text-align: left;
-    padding-bottom: 8px;
+  font-size: 17px;
+  text-align: left;
+  padding-bottom: 8px;
 }
 .textspeak :nth-child(3) {
-    font-size: 13px;
-    text-align: left;
-    padding-bottom: 15px;
+  font-size: 13px;
+  text-align: left;
+  padding-bottom: 15px;
 }
 .speak1 {
-    width: 100%;
-    height: auto;
-    margin: 0px auto;
-    margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+  margin-bottom: 30px;
 }
 .subscribe {
-    background-color: #f7aa00;
-    color: white;
-    width: 100%;
-    height: auto;
-    margin: 0px auto;
-    text-align: center;
+  background-color: #f7aa00;
+  color: white;
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+  text-align: center;
 }
 .subscribe h3 {
-    font-size: 16;
-    padding: 10px 15px 10px 15px;
-    font-family: Lato;
+  font-size: 16;
+  padding: 10px 15px 10px 15px;
+  font-family: Lato;
 }
 .subs {
-    width: 100px;
-    height: auto;
-    border: none;
-    font-size: 10px;
-    padding: 5px;
-    float: left;
+  width: 100px;
+  height: auto;
+  border: none;
+  font-size: 10px;
+  padding: 5px;
+  float: left;
 }
 .subscribe button {
-    background-color: #cccccc;
-    color: black;
-    float: left;
-    padding: 5px;
-    font-size: 9px;
-    cursor: pointer;
+  background-color: #cccccc;
+  color: black;
+  float: left;
+  padding: 5px;
+  font-size: 9px;
+  cursor: pointer;
 }
 .subsbtn {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    padding-bottom: 10px;
-    margin: 0px auto;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 10px;
+  margin: 0px auto;
 }
 .subsbtndiv {
-    display: inline-block;
+  display: inline-block;
 }
 footer {
-    width: 100%;
-    height: auto;
-    background-color: black;
-    color: white;
-    overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  overflow: hidden;
 }
 .footerwrap {
-    width: 80%;
-    height: auto;
-    margin: 0px auto;
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
 }
 .downlogo {
-    width: 140;
-    height: 45px;
-    padding: 20px 0px 20px 0px;
+  width: 140;
+  height: 45px;
+  padding: 20px 0px 20px 0px;
 }
 .footertext {
-    font-size: 11px;
-    padding-bottom: 20px;
-    line-height: 20px;
+  font-size: 11px;
+  padding-bottom: 20px;
+  line-height: 20px;
 }
 .footerwrap h3 {
-    font-size: 18px;
-    color: #235784;
-    font-family: Lato;
+  font-size: 18px;
+  color: #235784;
+  font-family: Lato;
 }
 .footerwrap a {
-    display: table;
-    color: white;
-    padding-top: 5px;
-    font-size: 11px;
-    font-family: Lato;
-    cursor: pointer;
+  display: table;
+  color: white;
+  padding-top: 5px;
+  font-size: 11px;
+  font-family: Lato;
+  cursor: pointer;
 }
 .footerwrap a:hover {
-    color: #f7aa00;
+  color: #f7aa00;
 }
 .recent h3 {
-    padding-top: 25px;
-    padding-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
 .post1, .post2 {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    display: inline-flex;
-    margin-bottom: 15px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: inline-flex;
+  margin-bottom: 15px;
 }
 .post1 img, .post2 img {
-    float: left;
-    object-fit: cover;
-    height: 60px;
-    width: 60px;
-    border-radius: 15px;
+  float: left;
+  object-fit: cover;
+  height: 60px;
+  width: 60px;
+  border-radius: 15px;
 }
 .post1txt1 a {
-    font-size: 13px;
+  font-size: 13px;
 }
 .post1txt1 {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 .post1txt2 {
-    font-size: 11px;
-    line-height: 22px;
-    font-family: Lato;
-    font-weight: 300;
+  font-size: 11px;
+  line-height: 22px;
+  font-family: Lato;
+  font-weight: 300;
 }
 .post2 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .contactdown {
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-    position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  position: relative;
 }
 .contactdown h3 {
-    padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 #call2 {
-    padding-bottom: 8px;
-    display: block;
-    cursor: pointer;
+  padding-bottom: 8px;
+  display: block;
+  cursor: pointer;
 }
 #call2 i {
-    padding-right: 5px;
-    transform: rotate(108deg);
+  padding-right: 5px;
+  transform: rotate(108deg);
 }
 .fa-envelope {
-    padding-right: 5px;
-    padding-bottom: 10px;
-    display: table;
-    cursor: pointer;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  display: table;
+  cursor: pointer;
 }
 #email2 {
-    cursor: pointer;
+  cursor: pointer;
 }
 .contactdown :nth-child(3) {
-    font-family: Lato;
-    font-size: 12px;
+  font-family: Lato;
+  font-size: 12px;
 }
 .contactdown :nth-child(4) {
-    font-family: Lato;
-    font-size: 12px;
+  font-family: Lato;
+  font-size: 12px;
 }
 .copyright {
-    width: 100%;
-    height: auto;
-    background-color: #235784;
-    color: white;
-    text-align: center;
-    margin: 0px auto;
-    font-size: 11px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    font-family: Lato;
+  width: 100%;
+  height: auto;
+  background-color: #235784;
+  color: white;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 11px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: Lato;
 }
 #gototopmob {
-    display: none;
-    position: fixed;
-    bottom: 48px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color:#235784;
-    color: white;
-    cursor: pointer;
-    padding: 13px;
-    border-radius: 11px;
+  display: none;
+  position: fixed;
+  bottom: 48px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#235784;
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 11px;
 }
 
 /* hiding things in responsive design */
 @media only screen and (max-width: 767px) {
   .contactdownpctext,.contactdownpc, .copyrightpc, .secondspeakpc1, .menupc, .researchpc, .forpc3, .pctextonly, .textg {
-        display: none;
-   }
+    display: none;
+  }
 }
 /* for computer SCREEN  */
-
 @media only screen and (min-width: 768px) {
-
-.news, .mobmenu, .researchmob, .copyright, .contactdown, .textgmob {
+  .news, .mobmenu, .researchmob, .copyright, .contactdown, .textgmob {
     display: none;
-}
-button {
+  }
+  button {
     border: none;
     background-color: #f7aa00;
     font-family: Lato;
@@ -636,86 +634,84 @@ button {
     display: inline-flex;
     text-align: center;
     cursor: pointer;
-}
-
-
-    header {
+  }
+  header {
     width: 100%;
     height: auto;
-}
-header div {
+  }
+  header div {
     width: 80%;
     height: auto;
     margin: 0px auto;
     overflow: hidden;
-}
-.call {
+  }
+  .call {
     float: left;
     padding: 20px 30px 20px 0px;
-}
-.email {
+  }
+  .email {
     float: left;
     padding: 20px 20px 0px 0px;
-}
-.socialicons {
+  }
+  .socialicons {
     float: right;
     padding-top: 20px;
     padding-right: 5px;
-}
-.menubarmob {
+  }
+  .menubarmob {
     width: 1080px;
     overflow: hidden;
-}
-.hamburger {
+  }
+  .hamburger {
     display:none;
-}
-.mainlogo {
+  }
+  .mainlogo {
     float: left;
     cursor: pointer;
-}
-.logomob {
+  }
+  .logomob {
     width: 180px;
     height: 45px;
     margin: 12px 20px 12px 0px !important ;
-}
-.menupc {
+  }
+  .menupc {
     display: inline;
     float: right;
     padding-top: 20px;
-}
-.menupc a {
+  }
+  .menupc a {
     color: #235784;
-}
-.menupc a:hover {
+  }
+  .menupc a:hover {
     box-shadow: 0px 4px 0px 0px #235784;
     padding-bottom: 4px;
-}
-.menupc li {
+  }
+  .menupc li {
     display: inline;
     padding-right: 20px;
     font-size: 18px;
     color: #235784;
-}
-.menupc li:nth-child(6) {
+  }
+  .menupc li:nth-child(6) {
     padding-right: 0px;
-}
-.mainviewmob {
+  }
+  .mainviewmob {
     background-image: url(../img/main_visual_01.jpg);
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
-}
-.mainviewmob hr {
+  }
+  .mainviewmob hr {
     margin-top: 270px;
     width: 150px;
     height: 3px;
-}
-.mainviewmob button {
+  }
+  .mainviewmob button {
     margin-bottom: 185px;
-}
-.mainviewmob h1 {
+  }
+  .mainviewmob h1 {
     font-size: 35px;
     color: white;
     text-align: center;
@@ -723,8 +719,8 @@ header div {
     font-family: PT-serif;
     font-weight: bold;
     text-transform: uppercase;
-}
-.mainviewmob h2 {
+  }
+  .mainviewmob h2 {
     color: #f7aa00;
     font-size: 28px;
     font-style: italic;
@@ -732,65 +728,65 @@ header div {
     letter-spacing: .3px;
     margin-bottom: 15px;
     text-transform: uppercase;
-}
-.coursehead {
+  }
+  .coursehead {
     text-align: left;
     font-size: 36px;
     padding-top: 75px;
     padding-bottom: 30px;
     margin-bottom: 0px;
-}
-.underg {
+  }
+  .underg {
     font-size: 30px;
     padding: 15px 30px 15px 30px;
-}
-.textg {
+  }
+  .textg {
     text-align: left;
     font-size: 17px;
     padding: 0px 30px 23px 30px;
-}
-.btns {
+  }
+  .btns {
     cursor: pointer;
     margin-bottom: 20px;
-}
-.btns:hover {
+  }
+  .btns:hover {
     background-color: #235784;
-}
-.programmes {
+  }
+  .programmes {
     overflow: hidden;
-}
-.pgms {
+  }
+  .pgms {
     width: 1080px;
     height: auto;
     margin: 0px auto;
-}
-.maincourses1 {
+  }
+  .maincourses1 {
     width: 500px;
     height: 504px;
     float: left;
-}
-.maincourses {
+  }
+  .maincourses {
     width: 500px;
     height: 504px;
     float: right;
-}
-.sticky {
+  }
+  .sticky {
     position: sticky;
     width: 19px;
     height: 20px;
     position:  absolute;
     top: -38px;
     left: 11px;
-}
-.sticky2 {
+  }
+  .sticky2 {
     position: sticky;
     width: 19px;
     height: 20px;
     position:  absolute;
     top: -38px;
     left: 10px;
-}
-.textbox {
+  }
+  .textbox {
     position: absolute;
     background: #f7aa00;
     color: white;
@@ -804,8 +800,8 @@ header div {
     width: 130px;
     height: 16px;
     text-align: center;
-}
-.textbox2 {
+  }
+  .textbox2 {
     position: absolute;
     background: #f7aa00;
     color: white;
@@ -819,8 +815,8 @@ header div {
     width: 130px;
     height: 16px;
     text-align: center;
-}
-.crossblue {
+  }
+  .crossblue {
     position: absolute;
     top: 436%;
     left: -298%;
@@ -831,8 +827,8 @@ header div {
     transform: rotate(90deg);
     z-index: 0;
     width: 1px;
-}
-.crossblue2 {
+  }
+  .crossblue2 {
     position: absolute;
     top: 436%;
     left: -298%;
@@ -843,20 +839,20 @@ header div {
     transform: rotate(90deg);
     z-index: 0;
     width: 1px;
-}
-.researchpc {
+  }
+  .researchpc {
     width: 1080px;
     margin: 0px auto;
     height: auto;
     overflow: hidden;
     box-sizing: border-box;
-}
-.groupofresearch {
+  }
+  .groupofresearch {
     width: 740px;
     height: auto;
     float: left;
-}
-.research1 {
+  }
+  .research1 {
     width: 740px;
     height: auto;
     overflow: hidden;
@@ -864,72 +860,72 @@ header div {
     margin-bottom: 40px;
     margin-right: 40px;
     background-color: #e1e1e1;
-}
-.research2 {
+  }
+  .research2 {
     width: 740px;
     height: auto;
     overflow: hidden;
     box-sizing: border-box;
     margin-right: 40px;
     background-color: #e1e1e1;
-}
-.researchimager {
+  }
+  .researchimager {
     float: left;
     padding: 25px 35px 0px 21px;
-}
-.imagecourser {
+  }
+  .imagecourser {
     width: 211px;
     object-fit: cover;
     height: 167px;
-}
-.textr {
+  }
+  .textr {
     text-align: center;
     background-color: unset;
-}
-.btnr {
+  }
+  .btnr {
     float: right;
     margin-right: 25px;
     margin-top: 5px;
     margin-bottom: 25px;
-}
-.newspc {
+  }
+  .newspc {
     width: 317px;
     height: 490px;
     float: right;
     margin-left: 5px;
-}
-.newspc h2 {
+  }
+  .newspc h2 {
     font-size: 30px;
     color: #f7aa00;
     padding-bottom: 15px;
-}
-.newsdatepc{
+  }
+  .newsdatepc{
     font-size: 18px;
     margin-bottom: 10px;
     padding-left: 15px;
     color: #f7aa00;
     cursor: pointer;
-}
-.mainnewspc {
+  }
+  .mainnewspc {
     font-size: 17px;
     color: #235784;
     padding-bottom: 15px;
     padding-left: 15px;
-}
-.linenews {
+  }
+  .linenews {
     margin-left: 15px;
     width: 280px;
     height: 3px;
     background-color: #235784;
     margin-bottom: 15px;
-}
-#lastnews {
+  }
+  #lastnews {
     margin-bottom: 19px;
-}
-.buttonwrap {
+  }
+  .buttonwrap {
     text-align: center;
-}
-.freec {
+  }
+  .freec {
     width: 1280px;
     height: auto;
     margin: 0px auto;
@@ -937,231 +933,231 @@ header div {
     box-sizing: border-box;
     padding-top: 100px;
     margin-bottom: 100px;
-}
-.imagefree {
+  }
+  .imagefree {
     width: 550px;
     height: 330px;
     float: right;
-}
-.textfree {
+  }
+  .textfree {
     width: 730px;
     height: 330px;
     float: left;
-}
-.freecimg {
+  }
+  .freecimg {
     margin: 0px;
-}
-.freebtn {
+  }
+  .freebtn {
     padding: 10px 20px 10px 20px;
     margin-bottom: 18px;
     margin-top: 10px;
-}
-.freebtn:hover {
+  }
+  .freebtn:hover {
     background-color: white;
     color: #235784;
-}
-.textfree :nth-child(1) { 
+  }
+  .textfree :nth-child(1) {
     font-size: 36px;
     padding: 45px 45px 25px 100px;
-}
-.textfree :nth-child(2) {
+  }
+  .textfree :nth-child(2) {
     font-size: 25px;
     padding: 0px 45px 25px 100px;
     line-height: 35px;
-}
-.textfree :nth-child(3) {
+  }
+  .textfree :nth-child(3) {
     font-size: 18px;
-}
-.speak1 {
+  }
+  .speak1 {
     width: 100%;
     margin: 0px auto;
-}
-.speakers {
+  }
+  .speakers {
     width: 990px;
     height: auto;
     border: solid 2px #235784;
     overflow: hidden;
     margin: 0px auto;
     margin-bottom: 100px;
-}
-.speakers h2 {
+  }
+  .speakers h2 {
     text-align: left;
     font-size: 36px;
     margin: 0px;
     padding-bottom: 30px;
     padding-top: 30px;
     padding-left: 60px;
-}
-.firstspeakpc {
+  }
+  .firstspeakpc {
     width: 250px;
     height: auto;
     padding-left: 60px;
     float: left;
-}
-.textspeak {
+  }
+  .textspeak {
     margin-bottom: 30px;
-}
-.textspeak :nth-child(1){
+  }
+  .textspeak :nth-child(1){
     font-size: 17px;
-}
-.textspeak :nth-child(2) {
+  }
+  .textspeak :nth-child(2) {
     font-size: 18px;
     font-weight: bolder;
-}
-.textspeak :nth-child(3) {
+  }
+  .textspeak :nth-child(3) {
     font-size: 16px;
-}
-.textspeak :nth-child(4) {
+  }
+  .textspeak :nth-child(4) {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-.wrapperspeak {
+  }
+  .wrapperspeak {
     width: 990px;
     height: auto;
     display: inline-flex;
     margin: 0px auto;
-}
-.secondspeakpc {
+  }
+  .secondspeakpc {
     width: 250px;
     height: auto;
     padding-left: 50px;
     float: left;
     margin: 0px;
-}
-.secondspeakpc1 {
+  }
+  .secondspeakpc1 {
     width: 250px;
     height: auto;
     float: left;
     margin: 0px;
     padding-left: 50px;
     padding-right: 60px;
-}
-.subscribe {
+  }
+  .subscribe {
     background-color: #f7aa00;
     color: white;
     width: 100%;
     height: auto;
     margin: 0px auto;
     text-align: center;
-}
-.subscribe h3 {
+  }
+  .subscribe h3 {
     font-size: 25px;
     padding: 20px 15px 20px 15px;
     font-family: Lato;
-}
-.subs {
+  }
+  .subs {
     width: 230px;
     height: auto;
     border: none;
     font-size: 18px;
     padding: 10px;
     float: left;
-}
-.subscribe button {
+  }
+  .subscribe button {
     background-color: #cccccc;
     color: black;
     float: left;
     padding: 10px;
     font-size: 17px;
     cursor: pointer;
-}
-.subsbtn {
+  }
+  .subsbtn {
     width: 100%;
     height: auto;
     overflow: hidden;
     padding-bottom: 20px;
     margin: 0px auto;
-}
-.subsbtndiv {
+  }
+  .subsbtndiv {
     display: inline-block;
-}
-.footerwrap {
+  }
+  .footerwrap {
     width: 1280px;
     height: auto;
     overflow: hidden;
     box-sizing: border-box;
     margin: 0px auto;
-}
-.footerpc1 {
+  }
+  .footerpc1 {
     width: 300px;
     height: 400px;
     float: left;
-}
-.downlogo {
+  }
+  .downlogo {
     width: 205px;
     height: 65px;
     padding-top: 60px;
     padding-bottom: 35px;
     cursor: pointer;
-}
-.footertext {
+  }
+  .footertext {
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 1px;
-    font-family: Lato Regular;
-}
-.footerpc2 {
+    /* font-family: Lato Regular; */
+  }
+  .footerpc2 {
     width: 125px;
     height: 400px;
     float: left;
     padding-top: 65px;
     padding-left: 95px;
-}
-.footerpc2 h3 {
+  }
+  .footerpc2 h3 {
     font-size: 24px;
     padding-bottom: 67px;
-}
-.footerpc2 a {
+  }
+  .footerpc2 a {
     font-size: 16px;
     padding-bottom: 15px;
     font-family: Lato;
-}
-.recentpc {
+  }
+  .recentpc {
     width: 290px;
     height: 400px;
     float: left;
     padding-top: 65px;
     padding-left: 115px;
-}
-.recent h3 {
+  }
+  .recent h3 {
     padding-top: 0px;
     font-size: 24px;
     padding-bottom: 67px;
-}
-.post1txt1 a {
+  }
+  .post1txt1 a {
     font-size: 17px;
     font-weight: bold;
-}
-.post1txt2 {
+  }
+  .post1txt2 {
     font-size: 16px;
-}
-.post1 img {
+  }
+  .post1 img {
     margin-bottom: 20px;
     border-radius: 15px;
-}
-.contactdownpc {
+  }
+  .contactdownpc {
     width: 230px;
     float: right;
     padding-top: 65px;
-}
-.contactdownpc h3 {
+  }
+  .contactdownpc h3 {
     padding-top: 0px;
     font-size: 24px;
     padding-bottom: 67px;
-}
-#footerp {
+  }
+  #footerp {
     margin-bottom: 33px;
-}
-.contactdownpc p {
+  }
+  .contactdownpc p {
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 17px;
-}
-#mailpc, #callpc {
+  }
+  #mailpc, #callpc {
     font-size: 25px;
     padding-right: 15px;
-}
-.copyrightpc {
+  }
+  .copyrightpc {
     width: 100%;
     height: auto;
     background-color: #235784;
@@ -1171,16 +1167,16 @@ header div {
     padding-bottom: 13px;
     font-family: Lato;
     position: relative;
-}
-.textcopy {
+  }
+  .textcopy {
     display: inline-flex
-}
-.copyrightpc p {
+  }
+  .copyrightpc p {
     font-size: 14px;
     text-align: left;
     padding: 20px 0px 20px 100px;
-}
-#gototoppc {
+  }
+  #gototoppc {
     display: none;
     position: fixed;
     bottom: 95px;
@@ -1194,29 +1190,29 @@ header div {
     cursor: pointer;
     padding: 14px;
     border-radius: 11px;
-}
-.socialiconsdown {
+  }
+  .socialiconsdown {
     display: inline-flex;
     float: right;
     padding: 20px 150px 20px 0px;
-}
-.socialiconsdown li:hover {
+  }
+  .socialiconsdown li:hover {
     transform: scale(1.3);
     color:#f7aa00;
-}
-.socialiconsdown li {
+  }
+  .socialiconsdown li {
     padding-right: 10px;
     padding-bottom: 10px;
     cursor: pointer;
-}
-.socialicons :nth-child(4) {
+  }
+  .socialicons :nth-child(4) {
     padding-right: 0px;
-}
-.post1 img, .post2 img {
+  }
+  .post1 img, .post2 img {
     float: left;
     object-fit: cover;
     height: 110px;
     width: 120px;
     border-radius: 15px;
-}
+  }
 }
